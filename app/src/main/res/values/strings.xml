@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MADT_Lab2_Makeyenka</string>
+
+    <string-array name="choose_count">
+        <item>Words</item>
+        <item>Chars</item>
+    </string-array>
+    <string name="button_count">
+        Count
+    </string>
+    <string name="text_enter">Enter your text</string>
+    <string name="text_res">result</string>
+</resources>
