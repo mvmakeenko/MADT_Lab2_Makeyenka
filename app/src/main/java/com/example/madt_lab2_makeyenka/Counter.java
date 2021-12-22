@@ -3,7 +3,7 @@ package com.example.madt_lab2_makeyenka;
 import java.util.StringTokenizer;
 
 public class Counter {
-    public static void count(String text, boolean choice) {
+    public static int count(String text, boolean choice) {
         int count;
         if (choice) count = text.length();
         else  {
@@ -16,6 +16,7 @@ public class Counter {
                 }
             }
         }
-        MainActivity.result.setText("Result: "+count);
+        //MainActivity.result.setText("Result: "+count);
+        return count;
     }
 }
